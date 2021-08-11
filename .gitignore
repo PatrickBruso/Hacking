@@ -1,0 +1,25 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### above combination used to ignore compiled C files with no extensions ###
+
+# Ignore files with extension '.class' & '.sm'
+*.class
+*.sm
+
+# Ignore 'bin' dir
+bin/
+# or
+*/bin/*
+
+# Unignore all '.jar' in 'bin' dir
+!*/bin/*.jar
+
+# Ignore all 'library.jar' in 'bin' dir
+*/bin/library.jar
