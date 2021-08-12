@@ -1,4 +1,7 @@
+/* Run with -Wno-format flag when compiling to avoid format errors */
+
 #include <stdio.h>
+#include <string.h> // Prevents error from line 9 when compiling
 
 int main() {
     char string[10];
@@ -14,5 +17,5 @@ int main() {
     printf("[string] %s Address %08x\n", string, string);
 
     // Example of unary address operator (dereferencing) and a %x format string
-    printf("varialbe A is at address: %08x\n", &A);
+    printf("variable A is at address: %08x\n", &A);
 }
