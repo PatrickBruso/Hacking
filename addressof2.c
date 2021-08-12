@@ -1,4 +1,4 @@
-/* Run with flat -Wno-format */
+/* Run with flag -Wno-format */
 
 #include <stdio.h>
 
