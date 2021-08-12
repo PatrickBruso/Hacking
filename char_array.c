@@ -1,6 +1,6 @@
 /* Second program from Jon Erickson's Hacking - The Art of Exploitation.
 Note that when you compile this program it gives a format-security warning.
-You can fix this by adding in the first argument of printf to be a string literal
+You can fix this by adding in the first argument of printf to be a string
 or by using puts instead. To match the book's output, remove the newline on line 24. */
 
 #include <stdio.h>

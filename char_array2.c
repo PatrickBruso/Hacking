@@ -1,4 +1,4 @@
-/* like program char_array.c, added a format argument for the string literal.
+/* like program char_array.c, added a format argument for the string variable.
 Can also use puts instead of printf. */
 
 #include <stdio.h>
