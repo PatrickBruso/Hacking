@@ -1,4 +1,4 @@
-/* Added format argument for string variables on lines 13, 16, and 18 */
+/* Added format parameter for string variables on lines 13, 16, and 18 */
 
 #include <stdio.h>
 #include <string.h>
